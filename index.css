@@ -1,0 +1,46 @@
+* {
+	box-sizing: border-box;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+
+.note {
+	display: inline-flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+
+.keyboard {
+	zoom: 0.45;
+}
+
+.white {
+	position: relative;
+	border: 2px solid black;
+	width: calc((100% - 15px) / 52);
+	height: 500px;
+}
+
+.black {
+	color: white;
+	position: absolute;
+	background: black;
+	width: 55%;
+	height: 70%;
+	border: 2px solid black;
+	top: -2px;
+	right: 0;
+	z-index: 100;
+}
+
+.c-sharp, .f-sharp {
+	transform: translateX(38%);
+}
+.a-sharp, .d-sharp {
+	transform: translateX(62%);
+}
+.g-sharp {
+	transform: translateX(50%);
+}
