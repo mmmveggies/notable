@@ -33,10 +33,13 @@ module.exports = {
     // typescript will handle these
     "no-unused-vars": "off",
     "import/no-unresolved": "off",
+    "no-useless-constructor": "off",
+    "no-empty-function": [2, { allow: ["constructor"] }],
 
     "react/jsx-filename-extension": ["error", { extensions: [".tsx"] }],
 
     // you break it, you buy it
-    "react/jsx-props-no-spreading": "off"
+    "react/jsx-props-no-spreading": "off",
+    "max-classes-per-file": "off",
   },
 };

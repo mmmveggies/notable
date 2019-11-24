@@ -30,6 +30,7 @@
     "parcel": "^1.12.4",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "typescript": "^3.8.0-dev.20191122"
+    "typescript": "^3.8.0-dev.20191122",
+    "webmidi": "^2.5.1"
   }
 }
